@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BridgeAccess – Logistics Support in Oman</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f9fafb;
+      color: #333;
+    }
+    header {
+      background-color: #0a2940;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .logo {
+      font-size: 2em;
+      font-weight: 800;
+      margin-bottom: 10px;
+    }
+    .tagline {
+      font-size: 1.2em;
+      opacity: 0.9;
+    }
+    .cta-button {
+      margin-top: 20px;
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #1f7ae0;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 600;
+    }
+    .section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .section h2 {
+      color: #0a2940;
+      margin-bottom: 16px;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .feature {
+      flex: 1 1 280px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+    .feature h3 {
+      margin-top: 0;
+      color: #1f7ae0;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #0a2940;
+      color: #fff;
+      font-size: 0.9em;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">🚚 BridgeAccess</div>
+    <div class="tagline">Your Trusted Logistics Partner in Oman</div>
+    <a class="cta-button" href="https://wa.me/96892221919" target="_blank">Message Me on WhatsApp</a>
+  </header>
+
+  <section class="section">
+    <h2>What I Do</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>🔎 Sourcing & Procurement</h3>
+        <p>I help global buyers and expats find trusted suppliers and products inside Oman.</p>
+      </div>
+      <div class="feature">
+        <h3>🚛 Delivery Coordination</h3>
+        <p>From pickup to final delivery, I organize smooth and safe logistics solutions.</p>
+      </div>
+      <div class="feature">
+        <h3>🗣️ Arabic-English Bridge</h3>
+        <p>I handle communication with Arabic-speaking suppliers so you don’t have to worry about misunderstandings.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Why Choose BridgeAccess?</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>✅ Local Knowledge</h3>
+        <p>Deep understanding of Oman’s business culture, geography, and suppliers.</p>
+      </div>
+      <div class="feature">
+        <h3>🌍 Global Perspective</h3>
+        <p>I work in English and know the needs of expats, buyers, and international teams.</p>
+      </div>
+      <div class="feature">
+        <h3>💬 Clear Communication</h3>
+        <p>No vague promises. I offer transparent updates, honest timelines, and fair pricing.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Let’s Work Together</h2>
+    <p>If you're looking to simplify logistics in Oman, message me today. I’ll reply within 24 hours.</p>
+    <a class="cta-button" href="https://wa.me/96892221919" target="_blank">Chat on WhatsApp</a>
+  </section>
+
+  <footer>
+    © 2025 BridgeAccess | Built with honesty and hustle in Oman
+  </footer>
+</body>
+</html>
