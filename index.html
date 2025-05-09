@@ -14,10 +14,18 @@
     header {
       background-color: #0d2c54;
       color: gold;
-      padding: 20px;
+      padding: 10px 20px;
       display: flex;
       align-items: center;
       justify-content: space-between;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+    .logo img {
+      height: 50px;
+      margin-right: 10px;
     }
     nav ul {
       list-style: none;
@@ -63,29 +71,20 @@
       margin: 20px;
       border-left: 5px solid gold;
     }
-    .form-section {
+    .whatsapp-section {
       background-color: #f0f8ff;
       padding: 40px;
+      text-align: center;
     }
-    .form-section form {
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-      max-width: 500px;
-      margin: auto;
-    }
-    input, textarea {
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-    button {
+    .whatsapp-section a {
+      display: inline-block;
       background-color: #0d2c54;
       color: white;
-      padding: 10px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
+      padding: 15px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
     }
     footer {
       background-color: #0d2c54;
@@ -97,7 +96,10 @@
 </head>
 <body>
   <header>
-    <div><strong>BridgeAccess</strong></div>
+    <div class="logo">
+      <img src="logo.png" alt="BridgeAccess Logo" />
+      <strong>BridgeAccess</strong>
+    </div>
     <nav>
       <ul>
         <li><a href="#">Home</a></li>
@@ -124,39 +126,45 @@
     <p>BridgeAccess delivers world-class logistics and sourcing solutions from Oman to the world.</p>
   </div>
 
-  <div class="section" id="import">
-    <h2>Import & Export</h2>
-    <p>We handle cross-border logistics from documentation to delivery, ensuring fast and secure transport of your goods worldwide.</p>
-  </div>
-  <div class="section" id="containers">
-    <h2>Containers</h2>
-    <p>Full-service container logistics with port handling, inland movement, and tracking support for your cargo.</p>
-  </div>
-  <div class="section" id="delivery">
-    <h2>Local & International Delivery</h2>
-    <p>We offer fast, safe, and reliable delivery across Oman and to international destinations.</p>
-  </div>
-  <div class="section" id="coordination">
-    <h2>Coordination</h2>
-    <p>Our experts manage all moving parts of your supply chain with precision, from suppliers to warehouses and beyond.</p>
-  </div>
-  <div class="section" id="procurement">
-    <h2>Procurement & Sourcing</h2>
-    <p>We identify and secure high-quality materials, products, and partnerships tailored to your business needs.</p>
-  </div>
-  <div class="section" id="customs">
-    <h2>Customs Clearance</h2>
-    <p>Quick and compliant clearance at all major Omani ports and airports. Avoid delays and fines with our expert team.</p>
+  <div class="section" id="about">
+    <h2>Founder’s Story</h2>
+    <p>BridgeAccess was founded by Mr. Nasser Mattar Al Tooqi, a visionary with a deep understanding of logistics and international trade. With over 15 years of industry experience, Mr. Nasser has built a business rooted in trust, reliability, and innovation. His mission is to empower Omani logistics to reach global standards while staying committed to service excellence and community impact.</p>
   </div>
 
-  <div class="form-section" id="contact">
+  <div class="section" id="import">
+    <h2>Import & Export</h2>
+    <p>We facilitate end-to-end import and export logistics, including trade documentation, customs clearance, port handling, and last-mile delivery. Whether you are trading regionally or internationally, we ensure your cargo moves smoothly, securely, and efficiently.</p>
+  </div>
+
+  <div class="section" id="containers">
+    <h2>Containers</h2>
+    <p>We provide full-service container logistics: FCL/LCL cargo handling, tracking, storage, and inland transport. Our advanced container management ensures real-time visibility and optimal movement at all times.</p>
+  </div>
+
+  <div class="section" id="delivery">
+    <h2>Local & International Delivery</h2>
+    <p>BridgeAccess ensures fast and secure delivery services across Oman and to international destinations. From courier-sized shipments to bulk freight, our network guarantees reliability and time-sensitive execution.</p>
+  </div>
+
+  <div class="section" id="coordination">
+    <h2>Coordination</h2>
+    <p>Our coordination service synchronizes suppliers, logistics providers, customs, and warehouses to ensure seamless movement and real-time responsiveness. We prevent delays before they start and keep your supply chain flowing.</p>
+  </div>
+
+  <div class="section" id="procurement">
+    <h2>Procurement & Sourcing</h2>
+    <p>Our team sources quality suppliers and products tailored to your business needs. With regional and global reach, we negotiate the best terms and ensure reliable supply through vetted vendor networks.</p>
+  </div>
+
+  <div class="section" id="customs">
+    <h2>Customs Clearance</h2>
+    <p>We manage customs formalities, approvals, and duties with precision. Our team ensures you meet all Omani and international regulations for a smooth customs experience — saving you time and avoiding penalties.</p>
+  </div>
+
+  <div class="whatsapp-section" id="contact">
     <h2>Request a Service</h2>
-    <form action="mailto:nasseraltooqi@gmail.com" method="POST" enctype="text/plain">
-      <input type="text" name="Name" placeholder="Your Name" required />
-      <input type="email" name="Email" placeholder="Your Contact Email or Phone" required />
-      <textarea name="Inquiry" placeholder="Describe your logistics needs here..." rows="5" required></textarea>
-      <button type="submit">Send Request</button>
-    </form>
+    <p>Click below to chat directly with us on WhatsApp. We’re ready to help you with your logistics needs.</p>
+    <a href="https://wa.me/96892221919" target="_blank">Message Us on WhatsApp</a>
   </div>
 
   <footer>
